@@ -1,7 +1,9 @@
 body{
     margin: 0;
     padding-top: 700px;
-    }
+   text-align: center;
+}
+
 
 #welcome{
     position: absolute;
@@ -68,4 +70,47 @@ p{
     text-align: center;
     vertical-align: middle;
     
+}
+.menu{
+    position: absolute;
+    list-style: none;
+    font-family: sans-serif;
+    top: 15px;
+    right:20px;
+    z-index: 10;
+    cursor: pointer;
+        
+}
+
+.links{
+    float:left;
+    color: whitesmoke;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: monospace;
+    font-size: 30px
+}
+.links:hover{
+    background-color: darkcyan;
+}
+
+img{
+    height: 500px;
+    width: 500px;
+    text-align: left;
+}
+#contact{
+    background: lightcoral;
+}
+#contact iframe{
+    width: 100%;
+}
+.contact_1 a{
+ color: whitesmoke;
+    text-shadow: none;
+}
+.contact_1 h2{
+    display: inline;
 }
